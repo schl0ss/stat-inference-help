@@ -1,8 +1,8 @@
-# Basic Statistical Inference — Claude Code Skill
+# Stat Inference Help
 
-A [Claude Code](https://claude.com/claude-code) skill for teaching basic statistical inference. Built from 13 years of original high school statistics teaching notes.
+A Markdown agent skill for teaching basic statistical inference. Built from 13 years of original high school statistics teaching notes.
 
-Type `/stathelp` in Claude Code to get help explaining concepts, walking through inference problems step-by-step, or developing teaching strategies using the 4C Method.
+Use `stat-inference-help` to get help explaining concepts, walking through inference problems step-by-step, or developing teaching strategies using the 4C Method.
 
 AP® is a registered trademark of the College Board, which was not involved in the production of, and does not endorse, this skill.
 
@@ -18,28 +18,32 @@ AP® is a registered trademark of the College Board, which was not involved in t
 
 | File | Description |
 |------|-------------|
-| `SKILL.md` | Main skill — response templates, core principles, formatting rules |
-| `references/CURRICULUM.md` | Full curriculum map (Units 1–9), exam format, four-step framework |
-| `references/INFERENCE.md` | Deep inference guide — 4C method, conditions tables, procedure selection flowchart, calculator commands, Type I/II errors, power, scope of inference |
+| `SKILL.md` | Main skill: response templates, core principles, formatting rules |
+| `references/CURRICULUM.md` | Full curriculum map (Units 1-9), exam format, four-step framework |
+| `references/INFERENCE.md` | Deep inference guide: 4C method, conditions tables, procedure selection flowchart, calculator commands, Type I/II errors, power, scope of inference |
 
 ## Installation
 
-Copy the skill folder into your Claude Code skills directory:
+Clone this repo:
 
 ```bash
-# Clone this repo
-git clone https://github.com/schl0ss/claude-skill-stathelp.git
-
-# Copy to your Claude Code skills directory
-cp -r claude-skill-stathelp ~/.claude/skills/stathelp
+git clone https://github.com/schl0ss/stat-inference-help.git
 ```
 
-Then type `/stathelp` in any Claude Code session to activate it.
+Then copy the folder into the skills directory for any agent that can read Markdown skills.
+
+For Claude Code:
+
+```bash
+cp -r stat-inference-help ~/.claude/skills/stat-inference-help
+```
+
+Then invoke `stat-inference-help` in the agent session. In Claude Code, use `/stat-inference-help`.
 
 ## Example
 
 ```
-/stathelp Walk me through a two-proportion z-test for this problem:
+/stat-inference-help Walk me through a two-proportion z-test for this problem:
 In 2014, 19.7% of 61 randomly selected kochia plants were resistant
 to glyphosate. In 2017, 38.5% of 52 randomly selected kochia plants
 were resistant. Is there convincing evidence of an increase at α = 0.05?

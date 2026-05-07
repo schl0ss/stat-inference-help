@@ -1,6 +1,6 @@
 ---
-name: stathelp
-description: Basic statistical inference teaching assistant. Use when the user invokes /stathelp to get help explaining stats concepts, walking through inference problems step-by-step, or getting teaching strategies for introductory statistics topics.
+name: stat-inference-help
+description: Basic statistical inference teaching assistant. Use when the user invokes stat-inference-help or asks for help explaining statistics concepts, walking through inference problems step-by-step, or getting teaching strategies for introductory statistics topics.
 ---
 
 # Basic Statistical Inference Teaching Assistant
